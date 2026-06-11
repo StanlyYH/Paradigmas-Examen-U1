@@ -10,7 +10,7 @@ interface Props {
 
 export const GameCard = ({title, genre, price, available, icon,}: Props) => {
   return (
-    <div className="bg-amber-600 rounded-lg shadow-md p-6 text-center">
+    <div className="bg-blue-400 rounded-lg shadow-md p-6 text-center">
 
       {icon && (
         <div className="text-4xl mb-3">
@@ -18,15 +18,15 @@ export const GameCard = ({title, genre, price, available, icon,}: Props) => {
         </div>
       )}
 
-      <h2 className="text-gray-500 text-2xl font-bold mb-2">
+      <h2 className="text-black text-2xl font-bold mb-2">
         {title}
       </h2>
 
-      <p className="text-gray-600 mb-2">
+      <p className="text-black mb-2">
         {genre}
       </p>
 
-      <p className="text-gray-700 text-xl font-semibold mb-3">
+      <p className="text-black text-xl font-semibold mb-3">
         ${price.toFixed(2)}
       </p>
 

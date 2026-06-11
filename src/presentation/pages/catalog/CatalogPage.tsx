@@ -48,8 +48,8 @@ export const CatalogPage = () => {
         </div>
 
         {showCart && (
-          <div className="bg-amber-300 rounded-lg shadow-md p-6">
-            <h2 className="text-xl font-bold mb-2">Resumen del carrito</h2>
+          <div className="bg-blue-900 rounded-lg shadow-md p-6">
+            <h2 className="text-black text-xl font-bold mb-2">Resumen del carrito</h2>
             <p>Juegos en carrito: {cartCount}</p>
             <p>Total a pagar: ${totalSpent.toFixed(2)}</p>
           </div>

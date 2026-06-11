@@ -10,12 +10,12 @@ export const HomePage = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-md p-6">
-            <p className="text-gray-600">Juegos disponibles</p>
+            <p className="text-black">Juegos disponibles</p>
             <p className="text-4xl font-bold text-blue-600">120</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
-            <p className="text-gray-600">Ofertas activas</p>
+            <p className="text-black">Ofertas activas</p>
             <p className="text-4xl font-bold text-blue-600">15</p>
           </div>
         </div>
